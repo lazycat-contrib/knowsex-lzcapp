@@ -62,6 +62,7 @@ jobs:
       versioned-release-asset: true
       toolchains: node
       node-version: 22.x
+      node-package-manager: pnpm
     # 仅发布喵喵商店（MiaoMiao private store）；官方平台不发布，LZC_API_TOKEN 不映射
     secrets:
       APPSTORE_URL: ${{ secrets.APPSTORE_URL }}
