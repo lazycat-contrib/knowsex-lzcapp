@@ -1,0 +1,10 @@
+# Build artifacts
+site/
+dist/
+.upstream/
+*.lpk
+node_modules/
+
+# Editors
+.DS_Store
+*.swp

@@ -1,0 +1,18 @@
+package: cloud.lazycat.app.knowsex
+version: 1.0.0
+name: KnowSex
+description: "性知识科普网站：科学、客观、友善的性教育内容"
+min_os_version: "1.5.0"
+homepage: https://github.com/knowsex/knowsex.github.io
+author: knowsex
+license: MIT
+permissions:
+  required:
+    - net.internet
+locales:
+  zh:
+    name: KnowSex
+    description: "性知识科普网站：科学、客观、友善的性教育内容"
+  en:
+    name: KnowSex
+    description: "A science-based sex education knowledge website"

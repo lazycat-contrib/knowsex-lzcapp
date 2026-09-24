@@ -1,0 +1,33 @@
+version: 1
+
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/knowsex.lpk
+  target_arch: amd64
+
+update:
+  strategy: publish
+  allow_downgrade: false
+  version_source:
+    type: git
+    image: ""
+
+build:
+  run_buildscript: true
+  toolchains:
+    - kind: node
+      version: 22.x
+
+images: []
+
+stores:
+  official:
+    # Official store publication is intentionally disabled; publish only to MiaoMiao Store.
+    enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: KnowSex
+    summary: 性知识科普网站：科学、客观、友善的性教育内容
