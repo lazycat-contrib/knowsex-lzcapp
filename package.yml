@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.knowsex
-version: 1.0.0
+version: 1.0.1
 name: KnowSex
 description: "性知识科普网站：科学、客观、友善的性教育内容"
 min_os_version: "1.5.0"
